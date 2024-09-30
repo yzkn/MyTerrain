@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "maplibre-gl": "^4.7.1",
+    "maplibre-gl-gsi-terrain": "^1.2.0"
+  }
+}
