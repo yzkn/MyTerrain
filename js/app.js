@@ -2,6 +2,8 @@
 
 
 import maplibreGl from 'maplibre-gl';
+import 'maplibre-gl/dist/maplibre-gl.css';
+
 import { useGsiTerrainSource } from 'maplibre-gl-gsi-terrain';
 
 // const gsiTerrainSource = useGsiTerrainSource(maplibreGl.addProtocol); // 地理院標高タイル
@@ -46,14 +48,14 @@ const map = new maplibreGl.Map({
                 id: 'pale',
                 type: 'raster',
                 source: 'pale',
+                layout: {
+                    visibility: 'none',
+                },
             },
             {
                 id: 'photo',
                 type: 'raster',
                 source: 'photo',
-                layout: {
-                    visibility: 'none',
-                },
             },
         ],
     },
