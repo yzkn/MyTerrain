@@ -12,6 +12,8 @@
     "vite": "^5.4.1"
   },
   "dependencies": {
+    "@mapbox/togeojson": "^0.16.2",
+    "@watergis/maplibre-gl-export": "^3.8.3",
     "maplibre-gl": "^4.7.1",
     "maplibre-gl-gsi-terrain": "^1.2.0"
   }

@@ -10,6 +10,10 @@ npm install
 
 npm install maplibre-gl-gsi-terrain
 
+npm install @watergis/maplibre-gl-export
+
+npm install @mapbox/togeojson
+
 npm run build
 npm run dev
 ```
